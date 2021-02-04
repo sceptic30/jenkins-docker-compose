@@ -1,4 +1,5 @@
 FROM jenkins/jenkins:lts-alpine
+MAINTAINER Nikolas <nikolas@admintuts.net> 
 
 USER root
 
