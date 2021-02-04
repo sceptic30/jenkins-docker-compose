@@ -17,3 +17,8 @@ Change: 2021-02-04 03:45:46.400000000 +0200
  
  Naturally, the unix docker socket is running under user root. What we care about though is the actual group id (Gid), which is this case is 1001.
  Plug this value to the docker.env file, and you are good to go.
+
+#Execute:
+docker exec -it jenkins docker ps
+and you will get the running containers on your host.
+You now can using Jenkins to build docker images.
