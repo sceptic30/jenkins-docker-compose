@@ -2,7 +2,7 @@
 
 # Usage
 SSH to your Host Machine and find out at which Group ID your docker socker is running under like so:
-$ stat /var/run/docker.sock
+```$ stat /var/run/docker.sock```
 
 # Output:
 ```bash:~$ stat /var/run/docker.sock
