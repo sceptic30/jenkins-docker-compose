@@ -18,10 +18,10 @@ services:
     - ./jenkins_data:/var/jenkins_home
     - /var/run/docker.sock:/var/run/docker.sock:rw
    networks:
-    - admintuts-net
+    - default
 
 volumes:
   jenkins_data:
 networks:
-  admintuts-net:
+  default:
    driver: bridge
