@@ -16,7 +16,7 @@ Change: 2021-02-04 03:45:46.400000000 +0200
  Birth: -
  ```
  
- Naturally, the unix docker socket is running under user root.
+ > Naturally, the unix docker socket is running under user root.
  What we care about though is the actual group id (Gid), which is this case is 1001. Plug this value to the docker.env file, and you are good to go.
 
 # Execute

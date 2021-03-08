@@ -7,7 +7,7 @@ services:
    hostname: jenkins
    restart: unless-stopped
    env_file:
-    - docker.env
+    - jenkins.env
    build:
      context: .
    ports:
