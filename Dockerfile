@@ -17,7 +17,7 @@ RUN set -eux \
 && addgroup -S jenkins -g $DOCKER_HOST_GID \
 && adduser -S -G jenkins -u $DOCKER_HOST_GID jenkins \
 && usermod -aG docker jenkins \
-&& apk del curl
+&& apk del shadow
 
 USER jenkins
 
